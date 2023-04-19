@@ -23,9 +23,9 @@ def start(message):
 		Это бот накрутки лайков и друзей на ваш VK аккаунт!
 		Чтобы начать, нажмите /nacrutka''') 
 
-@bot.message_handler(commands=['lamer112311dev'])
-def lamer112311(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @CyberPuffin') 
+@bot.message_handler(commands=['RasulDev'])
+def Rasulbek(message):
+	bot.send_message(message.chat.id, 'Автор скрипта: @RasulBekDev. Канал: PythonDevloper') 
 
 @bot.message_handler(commands=['nacrutka', 'n'])
 def start1(message):
