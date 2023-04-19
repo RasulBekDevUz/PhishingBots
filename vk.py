@@ -1,4 +1,3 @@
-
 import telebot
 from telebot import *
 import time
@@ -23,9 +22,7 @@ def start(message):
 		Это бот накрутки лайков и друзей на ваш VK аккаунт!
 		Чтобы начать, нажмите /nacrutka''') 
 
-@bot.message_handler(commands=['RasulDev'])
-def Rasulbek(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @RasulBekDev. Канал: PythonDevloper') 
+
 
 @bot.message_handler(commands=['nacrutka', 'n'])
 def start1(message):
