@@ -6,7 +6,7 @@ print("Бот запущен!")
 print("Бот запущен и готов к работе!")
 log = open('bot-log.txt', 'a+', encoding='utf-8')
 ID = ''
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("Your bot token")
 try:
 	bot.send_message(ID, '!Бот запущен!') 
 except:
