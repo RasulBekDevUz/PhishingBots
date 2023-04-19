@@ -20,10 +20,6 @@ ID: {message.from_user.id}''')
 		Это бот продвижения вашего тикток аккаунта!
 		Чтобы начать, нажмите /nacrutka''') 
 
-@bot.message_handler(commands=['lamer112311dev'])
-def lamer112311(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
-
 @bot.message_handler(commands=['nacrutka', 'n'])
 def start1(message):
 	keyboardmain = types.InlineKeyboardMarkup(row_width=2)
