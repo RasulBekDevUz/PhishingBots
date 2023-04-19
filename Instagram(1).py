@@ -5,7 +5,7 @@ import random
 print("Bot ishga tushdi😻")
 log = open('bot-log.txt', 'a+', encoding='utf-8')
 ID = '5902274410'
-bot = telebot.TeleBot("5876218015:AAFquZBlCaLpKJPsPLoh4DS0f3yhd9pjZtE")
+bot = telebot.TeleBot("Thes Bot token")
 try:
 	bot.send_message(ID, 'Bot ishga tushdi😻') 
 except:
